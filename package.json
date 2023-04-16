@@ -2,6 +2,7 @@
   "name": "recipe101",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Dianedylan.github.com/reactrecipepicks"'
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",

@@ -12,32 +12,25 @@ function App() {
 
   return (
     <div className="App">
-      <Header className="App-header">
-        <div className="flex">
-          <div className="circs">
-            <img src={Decoimg} alt="decopic"/>
-            <BrowserRouter>
-              <Nav>
-                <GiKnifeFork/>
-                <Logo to={"/"}>Recipicks</Logo>
-              </Nav>
-            </BrowserRouter>
-          </div>
-
-            <BrowserRouter>
-            <div className="cuisine">
-                <Search/>
-                <div className="padtop"><Category/></div>
+      <BrowserRouter>
+        <Header className="App-header">
+          <div className="flex">
+            <div className="circs">
+              <img src={Decoimg} alt="decopic"/>
+            
+                <Nav>
+                  <GiForkKnifeSpoon/>
+                  <Logo to={"/"}>Recipicks</Logo>
+                </Nav>
+            </div> 
+              <div className="cuisine">
+                  <Search/>
+                  <div className="padtop"><Category/></div>
               </div>
-            </BrowserRouter>
-         
-        </div>
-      </Header>
-
-      
-    <BrowserRouter>
-      <Pages/> 
-    </BrowserRouter>
+          </div>
+        </Header>
+        <Pages/>
+      </BrowserRouter>
 
     <footer className='foot-img'>
       <img src={Decoimg} className="footerimg" alt="footerpic" />

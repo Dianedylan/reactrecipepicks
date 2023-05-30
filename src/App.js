@@ -9,7 +9,7 @@ import { GiDrippingKnife, GiForkKnifeSpoon } from "react-icons/gi";
 import Decoimg from "./footimg.avif";
 
 function App() {
- 
+  
   return (
     <div className="App">
       <BrowserRouter>

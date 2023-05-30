@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactrecipepicks/static/css/main.45fca9d7.css",
+    "main.js": "/reactrecipepicks/static/js/main.4d70bdff.js",
+    "static/media/footimg.avif": "/reactrecipepicks/static/media/footimg.4f742e2e1f55ed07f57e.avif",
+    "index.html": "/reactrecipepicks/index.html",
+    "main.45fca9d7.css.map": "/reactrecipepicks/static/css/main.45fca9d7.css.map",
+    "main.4d70bdff.js.map": "/reactrecipepicks/static/js/main.4d70bdff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45fca9d7.css",
+    "static/js/main.4d70bdff.js"
+  ]
+}

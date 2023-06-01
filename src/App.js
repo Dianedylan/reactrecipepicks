@@ -3,13 +3,14 @@ import Category from "./components/category";
 import Search from "./components/search";
 import Home from "./pages/Home";
 import './App.css';
+import './index.css';
 import styled from "styled-components";
 import {Link, BrowserRouter} from "react-router-dom";
 import { GiDrippingKnife, GiForkKnifeSpoon } from "react-icons/gi";
 import Decoimg from "./footimg.avif";
 
 function App() {
-  
+
   return (
     <div className="App">
       <BrowserRouter>

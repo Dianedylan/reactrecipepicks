@@ -51,6 +51,7 @@ height: 6rem;
 cursor: pointer;
 transform: scale(0.8);
 
+
 h4{
     color: white;
     font-size: 0.8rem;

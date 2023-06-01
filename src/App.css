@@ -1,5 +1,8 @@
 .App {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .App-header {
@@ -10,11 +13,14 @@
   align-items: left;
   justify-content: left;
   color: white;
-  
+  display: inline-flex;
+
 }
 .flex{
   display:flex;
+  flex-wrap:wrap ; 
 }
+
 .foot-img{
   background-image: url("footimg.avif");
   background-repeat: no-repeat;
@@ -27,10 +33,58 @@
 }
 .circs{
   display:inline-block;
+ 
 }
 .cuisine{
-  display:inline-block;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media(max-width:414px){
+  
+  #root{
+    width:200%;
+  }
+  #root > div > div.sc-fmSAUk.fKZfWB.App-header > div > div.cuisine > form {
+    margin-left: 210px;
+}
+  .cuisine{
+    width: 300px;
+  }
+  .padtop{
+    width: 500px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
 }
 .padtop{
   padding-top: 80px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .cuisine {
+    width: 500px;
+
+}
+#root > div > div.sc-fmSAUk.fKZfWB.App-header > div > div.circs > img{
+  width: 160px;
+  height: 160px;
+}
+
+#root{
+  width:120%;
+}
+.kYvRtW {
+ 
+  flex-direction: column;
+}
+#root > div > div.sc-jsMahE.kYvRtW > div.sc-irTswW.cectYb {
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+}
+
+
